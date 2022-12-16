@@ -1,4 +1,11 @@
-## How to start
+## TODO Application built with React and Solidity Web3.0
+
+### Requirements
+1. Create a smart contract which tracks and stores TODO tasks.
+2. Deploy the Smart Contract to Etherium blockchain.
+3. Create the user interface that shows TODO tasks.
+4. Provide TODO actions such as ADD and DELETE tasks.
+
 
 ### Setup (for Docker dev environment)
 ```sh
@@ -19,6 +26,9 @@ npm -v
 9.2.0
 pnpm -v
 7.18.1
+
+# Install hardhat
+npx hardhat
 ```
 
 
@@ -38,9 +48,9 @@ pre: cd into /frontend
 3) build --> pnpm run build
 
 ### References
-Pnpm (2x faster than npm) https://pnpm.io/installation
-speed up npm install in dev container https://www.youtube.com/watch?v=iDdJWIPRUx4
-Tutorial https://dev.to/xamhans/how-to-create-a-dapp-with-react-solidity-on-ethereum-blockchain-1gg0
+[Pnpm (2x faster than npm)](https://pnpm.io/installation)
+[TODO list tutorial](https://www.youtube.com/watch?v=ZCwTeMi4uoc&t=137s)
+speed up npm install in dev container ([youtube](https://www.youtube.com/watch?v=iDdJWIPRUx4))
 
 
 ### Etc
