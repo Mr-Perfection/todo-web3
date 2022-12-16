@@ -7,7 +7,7 @@ dotenv.config({ path: __dirname+'/.env' });
 const config: HardhatUserConfig = {
   solidity: "0.8.17",
   networks: {
-    goerli: {
+    sepolia: {
       url: process.env.ALCHEMY_GOERLI_URL,
       accounts: [process.env.ACCOUNT_PRIVATE_KEY || ""]
     }
