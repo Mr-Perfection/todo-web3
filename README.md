@@ -12,19 +12,10 @@ https://github.com/Mr-Perfection/MyDockerDevEnvironmentSetup
 
 
 ### Backend
-pre: cd into /backend
-
-0) start local testnet ---> pnpm run testnet
-1) Compile contracts ---> pnpm run build
-2) Test contracts -->     pnpm run test
-3) Deploy contracts -->   pnpm run deploy
+cd into /backend
 
 ### Frontend
-pre: cd into /frontend
-
-1) Install dependencies ---> pnpm install
-2) start frontend ---> pnpm run dev
-3) build --> pnpm run build
+cd into /frontend
 
 ### References
 [Pnpm (2x faster than npm)](https://pnpm.io/installation)
