@@ -1,7 +1,4 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
+# Backend
 Try running some of the following tasks:
 
 ```shell
@@ -15,24 +12,11 @@ npx hardhat run scripts/deploy.ts --network sepolia # deploy to Goerli test netw
 
 ### Project setup
 ```sh
-# My Docker Environment
-# Refer to https://github.com/Mr-Perfection/MyDockerDevEnvironmentSetup
-
-# Backend
 npx hardhat
 pnpm install -D @nomiclabs/hardhat-waffle ethereum-waffle @nomiclabs/hardhat-ethers ethers hardhat
 pnpm install -D @nomicfoundation/hardhat-toolbox @nomicfoundation/hardhat-network-helpers @nomicfoundation/hardhat-chai-matchers @nomiclabs/hardhat-ethers @nomiclabs/hardhat-etherscan chai hardhat-gas-reporter solidity-coverage @typechain/hardhat typechain @typechain/ethers-v5 @ethersproject/abi @ethersproject/providers
 pnpm install -D typescript ts-node @types/node @types/chai @types/mocha @ethersproject/bytes dotenv
 pnpm install @openzeppelin/contracts
-
-# Frontend
-npx create-react-app . --template typescript
-pnpm install axios ethers
-pnpm install -D @babel/plugin-syntax-flow @testing-library/dom @babel/plugin-transform-react-jsx @babel/core
-pnpm install @emotion/react @emotion/styled @mui/icons-material @mui/material
-
-# Etc
-npm install -g typescript
 ```
 
 ### Deployment
