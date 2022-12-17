@@ -8,28 +8,7 @@
 
 
 ### Setup (for Docker dev environment)
-```sh
-lscpu # aarch64
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install -y nodejs
-sudo apt-get install -y npm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash # install nvm
-source ~/.bashrc
-sudo nvm install –lts # Install the latest LTS version
-npm install -g pnpm
-
-# Current versions
-node -v
-v18.12.1
-npm -v
-9.2.0
-pnpm -v
-7.18.1
-
-# Install hardhat
-npx hardhat
-```
+https://github.com/Mr-Perfection/MyDockerDevEnvironmentSetup
 
 
 ### Backend
@@ -51,12 +30,3 @@ pre: cd into /frontend
 [Pnpm (2x faster than npm)](https://pnpm.io/installation)
 [TODO list tutorial](https://www.youtube.com/watch?v=ZCwTeMi4uoc&t=137s)
 speed up npm install in dev container ([youtube](https://www.youtube.com/watch?v=iDdJWIPRUx4))
-
-
-### Etc
-Here are some ready to use IPFS services 📡, that you can easily use for your next project 🚀
-
-🔗 https://pinata.cloud  
-🔗 https://nft.storage 
-🔗 https://docs.moralis.io/moralis-dapp/files/ipfs
-🔗 https://infura.io/product/ipfs 
